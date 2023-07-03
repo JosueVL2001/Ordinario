@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles8.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>Universidad del Istmo</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous">    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div class="contenedor">
+      <img src="Imagenes\logo.png" alt="imagen" class="logo">
+    </div>
+  </head>
+  <body>
+<header>
+
+
+
+
+  <!-- Menu -->
+<a href="#" class="logos">LOGO</a>
+
+<nav class="navbar">
+  <nav class="navbar">
+  <ul>
+    <li><a href="home.php">home</a></li>
+    <li><a href="#">Carrera > </a>
+      <ul>
+        <li><a href="MisionVision.php" >Mision y Vision</a> </li>
+        <li><a href="PerfilIngreso.php">Perfil de ingreso</a> </li>
+        <li><a href="perfilEgresado.html">Perfil de egreso</a> </li>
+        <li><a href="#">Plan de estudios</a> </li>
+        <li><a href="calendario.html">Calendario Escolares</a> </li>
+        <li><a href="planeacion.html">Planeación</a> </li>
+        <li><a href="#">Actividades complementarias</a> </li>
+      </ul>
+    </li>
+    <li><a href="#">Alumnos > </a>
+      <ul>
+        <li> <a href="informacionadicional.html">Información adicional</a> </li>
+        <li> <a href="reglamentos.html">Reglamentos</a> </li>
+        <li> <a href="horarios.html">Horarios </a> </li>
+        <li> <a href="CalendarioExamenes.html">Calendario Examnes</a> </li>
+        <li> <a href="cuadrohonor.html">Cuadro de honor </a> </li>
+        <li> <a href="eventosacademicos.html">Eventos Academicos </a> </li>
+        <li> <a href="#">Plataforma MIL Aulas </a> </li>
+      </ul>
+    </li>
+    <li><a href="#">Profesores > </a>
+      <ul>
+        <li> <a href="profesores.html">Profesores</a> </li>
+      </ul>
+    </li>
+    <li><a href="#">Egresados ></a>
+      <ul>
+        <li> <a href="Egresados.html">Nuestros egresados</a> </li>
+        <li> <a href="">Examnes profesionales</a> </li>
+        <li> <a href="ceneval.html">Titulados por CENEVAL</a> </li>
+        <li> <a href="tesis.html">Titulados por Tesis</a> </li>
+      </ul>
+    </li>
+    <li><a href="#">Aspirantes > </a>
+      <ul>
+        <li> <a href="requisitosingreso.html">Requisitos de Ingreso</a> </li>
+        <li> <a href="preguntas.html">Preguntas frecuentes</a> </li>
+        <li> <a href="instalaciones.html">Instalaciones</a> </li>
+      </ul>
+    </li>
+    <li> <a href="encuentranos.html">Encuentranos</a>    </li>
+  </ul>
+  </nav>
+<br><br><br><br>
+  <!-- fin MENU -->
+</header>
+<br><br><br><br>
+
+<div class="grid-container">
+<div class="" style="margin-left:20%">
+  <h3>Evaluacion CENEVAL - Computacion</h3>
+  <p>Es una prueba de cobertura nacional que evalúa el nivel de conocimientos y habilidades académicas de los recién egresados de la carrera de Ingeniería Computacional o demás carreras afines.</p>
+  <p>El EGEL permite identificar si los egresados de la licenciatura cuentan con los conocimientos y habilidades necesarios para iniciarse eficazmente en el ejercicio profesional.</p>
+  <p>Está dirigido a los egresados de la carrera de Ingeniería Computacional o demás carreras afines que han cubierto el 100% de los créditos, estén o no titulados, y en su caso, a estudiantes cursando el último semestre de la carrera, siempre y cuando la institución formadora así lo solicite.</p>
+</div>
+<div class="">
+  <h3>Aplicacion EGEL-ICOMPU</h3>
+  <p>Para mas informacion acerca del examen, visita:<br>
+					<a href="http://www.ceneval.edu.mx/ingenieria-computacional" target="_blank">CENEVAL - Ingenieria Computacional</a></p>
+</div>
+</div>
+
+
+<br><br><br>
+<section id="content">
+  <h3 style="margin-left:14%; margin-bottom:-3%">Titulados Por Ceneval</h3>
+<div class="grid-container-buttons">
+
+
+
+  <div class="tooltip">
+  <button class="button button2" onclick="mostrarAlumnos(this)" value ="1">Todos   <span class="tooltiptext">10</span></button>
+  </div>
+
+  <div class="tooltip">
+    <button class="button button2" onclick="mostrarAlumnos(this)" value ="2">Sobresaliente <span class="tooltiptext">5</span></button>
+  </div>
+  <div class="tooltip">
+    <button class="button button2" onclick="mostrarAlumnos(this)" value ="3">Satisfactorio <span class="tooltiptext">5</span></button>
+  </div>
+
+</div>
+
+
+<div class="" id="1" style="display: none;">
+  <div class="grid-containerPlanes">
+
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star-half-empty"></i> 2do lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star-o"></i> 3er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<div class="" id="2" style="display: none;">
+  <div class="grid-containerPlanes">
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Chamber</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Chamber</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Chamber</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star-half-empty"></i> 2do lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star-o"></i> 3er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<div class="" id="3" style="display: none;">
+  <div class="grid-containerPlanes">
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Chamber</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Chamber</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star"></i> 1er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Chamber</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star-half-empty"></i> 2do lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+    <div class="grid-containerInterno">
+      <div class="">
+        <h4><i class="fa fa-star-o"></i> 3er lugar</h4>
+        <img src="Imagenes/OIG.jpg" alt="Fotografía de alumno" class="imgCircular" />
+      </div>
+      <div class="">
+        <h6><i class="fa fa-user"></i> Guillermo Eduardo Reyes Rodr&iacute;guez</h6>
+        <br>
+        <i class="fa fa-users">904</i>
+        <br>
+        <blockquote>
+          <br>
+          <i class="fa fa-list-alt"></i> 9.8
+        </blockquote>
+        <br>
+        CBTIS 25 Salina Cruz
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="Imagenes/OIG.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="Imagenes/OIG2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="Imagenes/OIG3.jpg" style="width:100%">
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+
+
+<footer class="pie-pagina">
+  <div class="grupo1">
+    <div class="box">
+      <figure>
+        <h2>Sitios de Interes</h2>
+        <a href="#">
+          <img src="Imagenes/logo.png" alt="">
+        </a>
+
+      </figure>
+      <a href="#">Universidad del Istmo</a>
+      <br>
+      <a href="#">Servicios Escolares</a>
+      <br>
+      <a href="#">Biblioteca</a>
+    </div>
+    <div class="box">
+      <h2>Visitanos</h2>
+      <p>Ciudad Universitaria S/N, Barrio Santa Cruz, 4a. Sección
+        Sto. Domingo Tehuantepec, Oax., México C.P. 70760</p>
+      <br>
+      <p>Teléfono: (971) 522 4050 extensiones 111 y 123.</p>
+    </div>
+    <div class="box">
+      <h2>Siguenos</h2>
+      <div class="red-social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
+<script>
+  function mostrarAlumnos(valor){
+    var val = valor.value;
+
+
+    for(var i=1; i<=7;i++){
+      if(i == val){
+        var divVisible =  document.getElementById(i);
+        divVisible.style.display = "block";
+      }else{
+        var divVisible =  document.getElementById(i);
+        divVisible.style.display = "none";
+      }
+    }
+  }
+</script>
